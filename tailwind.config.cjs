@@ -5,9 +5,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#050816',
-        secondary: '#aaa6c3',
-        tertiary: '#151030',
+        // — Brand palette based on your flat logo blue —
+        primary: '#1927C5',          // your main logo blue
+        secondary: '#3F4FFF',        // lighter accent
+        tertiary: '#121E90',         // darker accent
+        
+        // — Explicit aliases if you prefer semantic names —
+        'brand-blue': '#1927C5',
+        'brand-blue-light': '#3F4FFF',
+        'brand-blue-dark': '#121E90',
+
+        // — keep the rest of your custom palette unchanged —
         'black-100': '#100d25',
         'black-200': '#090325',
         'white-100': '#f3f3f3',
@@ -65,4 +73,4 @@ export default {
     },
   },
   plugins: [],
-};
+}

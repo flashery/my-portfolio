@@ -37,14 +37,34 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        A Full Stack Developer. Turning your idea into reality.
+        I am an individual that loves to learn new ideas everyday.
       </motion.p>
-
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        I am a full time Full Stack Developer with love in Software Development in both back end and frontend
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        Expert in making high quality performance websites for start up and business growing companies.
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        Expert in working on front end: HTML5, Bootstrap, Material UI, JavaScript (VueJS, React).
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        Expert in working on the back end programming: NodeJS(Express), Java Core, PHP (Laravel, CodeIgniter and Yii).
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        Proficient in Serverless Technology: AWS CDK, AWS Lambda and Firebase
+      </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

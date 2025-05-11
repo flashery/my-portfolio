@@ -1,15 +1,14 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/bw-map.png';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/icon.png';
 
-import shaq from './personal/shaq.png';
+import yves from './personal/yves.png';
 
 import backend from './icons/backend.png';
-import ux from './icons/ux.png';
+import ai from './icons/ai.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -56,10 +55,9 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  logotext,
-  shaq,
+  yves,
   backend,
-  ux,
+  ai,
   frontend,
   prototyping,
   github,
