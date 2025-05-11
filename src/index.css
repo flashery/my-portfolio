@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@100;200;300;400;500;600;700;800;90&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -39,6 +39,7 @@
 
 body {
   font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .nav-links::after {

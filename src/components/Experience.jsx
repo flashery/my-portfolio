@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => (
     }}
     date={
       <div>
-        <h3 className="text-dim text-[18px] font-bold font-beckman">
+        <h3 className="text-black text-[18px] font-bold font-orbitron">
           {experience.date}
         </h3>
       </div>
@@ -39,11 +39,11 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }>
     <div>
-      <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
+      <h3 className="text-primary text-[24px] font-bold font-orbitron tracking-[2px]">
         {experience.title}
       </h3>
       <p
-        className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
+        className="text-secondary text-[22px] font-semibold font-orbitron tracking-[1px]"
         style={{ margin: 0 }}>
         {experience.company_name}
       </p>
@@ -66,7 +66,7 @@ const Experience = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline className="vertical-timeline-custom-line">
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+              <ExperienceCard key={index} experience={experience} />
           ))}
           <VerticalTimelineElement
             contentStyle={{
@@ -92,17 +92,17 @@ const Experience = () => {
               </div>
             }>
             <button
-              className="live-demo flex justify-between 
-              sm:text-[18px] text-[14px] text-timberWolf 
+              className="live-demo px-20 flex justify-between 
+              sm:text-[18px] text-[14px] text-white 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
+              whitespace-nowrap gap-1 
+              rounded-[10px] bg-primary 
+              sm:mt-[22px] mt-[16px] hover:bg-secondary 
+              transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://drive.google.com/file/d/1eR9V39HD2dsBtiBpVwrC-zKgLdVjOtQn/view?usp=sharing', //paste the link to your resume here
                   '_blank'
                 )
               }

@@ -40,10 +40,13 @@ import postgresql from './tech/postgresql.png';
 import wordpress from './tech/wordpress.png';
 
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import pristone from './company/pristone.png';
+import posbang from './company/posbang.png';
+import coinpass from './company/coinpass.png';
+import sleek from './company/sleek.png';
+import karta from './company/karta.png';
+import fixlers from './company/fixlers.png';
+import covertech from './company/covertech.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -95,8 +98,11 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  pristone,
+  posbang,
+  coinpass,
+  sleek,
+  karta,
+  fixlers,
+  covertech
 };

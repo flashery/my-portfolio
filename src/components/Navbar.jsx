@@ -32,7 +32,7 @@ const Navbar = () => {
              key={nav.id}
              className={`${
                active === nav.title ? 'text-secondary' : 'text-primary'
-             } hover:text-secondary text-[21px] font-medium font-mova 
+             } hover:text-secondary text-[21px] font-black font-orbitron 
                uppercase tracking-[3px]  nav-links`}
              onClick={() => setActive(nav.title)}>
              <a className="inline-block cursor-pointer" href={`#${nav.id}`}>{nav.title}</a>

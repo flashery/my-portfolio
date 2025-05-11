@@ -23,12 +23,15 @@ import {
   movie,
   nyeusi,
   php,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  pristone,
+  posbang,
   laravel,
-  wordpress
+  wordpress,
+  coinpass,
+  sleek,
+  karta,
+  fixlers,
+  covertech
 } from '../assets';
 
 export const navLinks = [
@@ -143,32 +146,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'DevOps / Full Stack Developer',
+    company_name: 'Pristone',
+    icon: pristone,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'November 2016 to December 2018',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'DevOps / Senior Full Stack Developer',
+    company_name: 'Posbang',
+    icon: posbang,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'November 2018 to December 2019',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'DevOps / Web Developer',
+    company_name: 'COINPASS',
+    icon: coinpass,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'January 2020 to January 2021',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Senior Full Stack Developer',
+    company_name: 'Sleek',
+    icon: sleek,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'January 2020 to January 2021',
+  },
+  {
+    title: 'Senior Software Developer',
+    company_name: 'Karta',
+    icon: karta,
+    iconBg: '#333333',
+    date: 'April 2022 to February 2023',
+  },
+  {
+    title: 'Senior Software Developer',
+    company_name: 'Fixlers',
+    icon: fixlers,
+    iconBg: '#333333',
+    date: 'May 2023 to November 2023',
+  },
+  {
+    title: 'Senior Software Developer III',
+    company_name: 'Cover Tech',
+    icon: covertech,
+    iconBg: '#333333',
+    date: 'December 2023 to February 2025',
   },
 ];
 
