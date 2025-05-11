@@ -72,7 +72,7 @@ const ProjectCard = ({
             <p
               className="text-silver sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]">
+              font-orbitron tracking-[1px]">
               {description}
             </p>
             <button

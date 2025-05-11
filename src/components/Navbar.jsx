@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      top-0 z-30 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
+      <div className="w-full  px-4 flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -23,23 +23,24 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[150px] sm:h-[150px] w-[245px]  object-contain"
+            className="w-[90px] h-[90px] object-contain"
           />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`text-primary hover:text-secondary text-[21px] font-medium font-mova 
-                uppercase tracking-[3px] cursor-pointer nav-links`}
-              onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
+             <li
+             key={nav.id}
+             className={`${
+               active === nav.title ? 'text-secondary' : 'text-primary'
+             } hover:text-secondary text-[21px] font-medium font-mova 
+               uppercase tracking-[3px]  nav-links`}
+             onClick={() => setActive(nav.title)}>
+             <a className="inline-block cursor-pointer" href={`#${nav.id}`}>{nav.title}</a>
+           </li>
           ))}
         </ul>
-
-        {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+ {/* mobile */}
+ <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
@@ -55,18 +56,19 @@ const Navbar = () => {
                 />
               </div>
               <ul
-                className="list-none flex flex-col -gap-[1rem] 
+                className="list-none flex flex-col px-20  -gap-[1rem] 
                 items-start justify-end mt-[10rem] -ml-[35px]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`text-primary text-[88px] font-bold font-arenq 
+                    className={`text-primary text-[88px] font-bold 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
+                    <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
                 ))}
               </ul>

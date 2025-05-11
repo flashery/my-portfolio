@@ -5,24 +5,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        // — Brand palette based on your flat logo blue —
-        primary: '#1927C5',          // your main logo blue
-        secondary: '#3F4FFF',        // lighter accent
-        tertiary: '#121E90',         // darker accent
-        
-        // — Explicit aliases if you prefer semantic names —
-        'brand-blue': '#1927C5',
-        'brand-blue-light': '#3F4FFF',
-        'brand-blue-dark': '#121E90',
+        // Brand colors based on your icon
+        primary: '#7F30E8', // Electric violet-purple base
+        secondary: '#EC4899', // Hot pink highlight
+        tertiary: '#6D28D9',  // Deep techy purple
 
-        // — keep the rest of your custom palette unchanged —
+        // Gradient stops (optional)
+        'brand-purple': '#6D28D9',
+        'brand-pink': '#EC4899',
+
+        // Original + neutral palette
         'black-100': '#100d25',
         'black-200': '#090325',
         'white-100': '#f3f3f3',
         flashWhite: '#f4f4f6',
         platinum: '#e6e6e9',
         platinumLight: '#f4f4f5',
-        timberWolf: '#115dd5',
+        timberWolf: '#d4d4d8',
         taupe: '#9999a1',
         silver: '#d6d6d6',
         dim: '#66666e',
@@ -37,8 +36,8 @@ export default {
         onyx: '#5b5b5b',
       },
       boxShadow: {
-        card: '0px 35px 120px -15px #1f1f1f',
-        cardLight: '0px 19px 38px #eaeaec, 0px 15px 12px #eaeaec',
+        card: '0px 35px 120px -15px rgba(109, 40, 217, 0.5)', // subtle glow using purple
+        cardLight: '0px 19px 38px #ec4899, 0px 15px 12px #7f30e8',
       },
       screens: {
         xs: '450px',
@@ -51,16 +50,15 @@ export default {
         '3xl': '1800px',
       },
       backgroundImage: {
-        about:
-          'linear-gradient(165deg, rgba(244,244,246,1) 100%, rgba(122,122,122,1) 100%)',
+        about: 'linear-gradient(165deg, #3520a8 0%, #7f30e8 100%)',
         experience:
-          "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
+          "linear-gradient(135deg, rgba(127,48,232,0.5) 60%, rgba(236,72,153,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
         experienceLight:
-          'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)',
-        hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
+          'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(127,48,232,0.9) 60%)',
+        hero: 'linear-gradient(135deg, #091025cf 60%, #270623e3 60%)',
         'hero-mobile':
-          'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
-        tech: "linear-gradient(277deg, rgb(2 27 60 / 80%) 100%, rgb(84 84 239 / 80%) 100%), url(/src/assets/backgrounds/nairobi.png)",
+          'linear-gradient(135deg, #091025cf 60%, #270623e3 60%)',
+        tech: "linear-gradient(277deg, #3520a87a, #3520a87a), url(/src/assets/backgrounds/nairobi.png)",
       },
       fontFamily: {
         arenq: ['Arenq'],
@@ -68,7 +66,7 @@ export default {
         mova: ['Mova'],
         overcameBold: ['Overcame Bold'],
         overcameOutline: ['Overcame Outline'],
-        poppins: ['Poppins', 'sans-serif'],
+        orbitron: ['Orbitron', 'sans-serif'],
       },
     },
   },

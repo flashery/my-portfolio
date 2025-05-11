@@ -45,49 +45,49 @@ const About = () => {
         A Passionate Full Stack Developer — Bringing Ideas to Life
       </motion.h3>
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        variants={fadeIn('', '', 0.4, 1)}
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         I’m a dedicated Full Stack Developer with a passion for turning ideas into functional, high-performance web applications. I thrive on learning new technologies and refining my skills every day.
         With extensive experience in both frontend and backend development, I specialize in building scalable and maintainable solutions for startups and growing businesses.
       </motion.p>
       <motion.h3
-        variants={fadeIn('', '', 0.1, 1)}
+        variants={fadeIn('', '', 0.8, 1)}
         className="mt-4 text-eerieBlack font-bold text-[24px] max-w-3xl leading-[30px]">
         What I Do Best:
       </motion.h3>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+      <motion.div
+        variants={fadeIn('', '', 1.6, 1)}
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         <strong>- Frontend Development</strong>
         <motion.br />
         <p className="px-3">I thrive on learning new technologies and refining my skills every day.
           With extensive experience in both frontend and backend development, I specialize in building scalable and maintainable solutions for startups and growing businesses.
         </p>
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+      </motion.div>
+      <motion.div
+        variants={fadeIn('', '', 2.0, 1)}
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         <strong>- Backend Development</strong>
         <motion.br />
         <p className="px-3">Proficient in Node.js (Express, NestJS), Java Core, and PHP frameworks such as Laravel and WordPress — building robust and secure APIs and systems.
         </p>
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+      </motion.div>
+      <motion.div
+        variants={fadeIn('', '', 2.4, 1)}
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         <strong>- Cloud & Serverless Architecture</strong>
         <motion.br />
         <p className="px-3">Skilled in deploying cost-efficient, scalable solutions using AWS CDK, AWS Lambda, and Firebase.
         </p>
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+      </motion.div>
+      <motion.div
+        variants={fadeIn('', '', 2.8, 1)}
+        className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         <strong>- AI Integrations</strong>
         <motion.br />
         <p className="px-3">Experienced in integrating AI features using OpenAI, LangChain, Ollama, and cloud-based LLM APIs, building smart features like chatbots, content generation, recommendation engines, and more.
         </p>
-      </motion.p>
+      </motion.div>
 
     </div>
   );

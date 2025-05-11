@@ -37,8 +37,16 @@ export const navLinks = [
     title: 'About',
   },
   {
+    id: 'skills',
+    title: 'Skills',
+  },
+  {
     id: 'projects',
     title: 'Projects',
+  },
+  {
+    id: 'experiences',
+    title: 'Experiences',
   },
   {
     id: 'contact',
@@ -276,7 +284,7 @@ const projects = [
     image: nyeusi,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };

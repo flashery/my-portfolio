@@ -72,7 +72,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-10 flex flex-col gap-6 font-poppins">
+          className="mt-10 flex flex-col gap-6 font-orbitron">
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">Your Name</span>
             <input

@@ -18,20 +18,21 @@ const App = () => {
           <Hero />
         </div>
 
-        <div className="bg-about bg-cover bg-center bg-no-repeat">
+        <div id="about" className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div id="skills" className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
 
-        <Projects />
+        <Projects id="projects" />
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]">
           <div
+            id="experiences"
             className="bg-experienceLight bg-cover bg-center 
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Experience />
