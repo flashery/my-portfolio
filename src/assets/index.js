@@ -34,8 +34,12 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
+import nestjs from './tech/nest-js.png'
+import laravel from './tech/laravel.png'
+import php from './tech/php.png'
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import wordpress from './tech/wordpress.png';
+
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -79,7 +83,10 @@ export {
   javascript,
   nodejs,
   postgresql,
-  rubyrails,
+  nestjs,
+  laravel,
+  wordpress,
+  php,
   reactjs,
   redux,
   tailwind,

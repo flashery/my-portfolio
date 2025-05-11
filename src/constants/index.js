@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  nestjs,
   reactjs,
   redux,
   tailwind,
@@ -15,18 +16,19 @@ import {
   figma,
   docker,
   postgresql,
-  rubyrails,
   graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
+  php,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  laravel,
+  wordpress
 } from '../assets';
 
 export const navLinks = [
@@ -54,11 +56,11 @@ const services = [
     icon: backend,
   },
   {
-    title: 'AI / RAG',
+    title: 'AI Integrations',
     icon: ai,
   },
   {
-    title: 'Software Prototyping',
+    title: 'DevOps',
     icon: prototyping,
   },
 ];
@@ -97,13 +99,10 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Nest JS',
+    icon: nestjs,
   },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+
   {
     name: 'postgresql',
     icon: postgresql,
@@ -119,6 +118,18 @@ const technologies = [
   {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'php',
+    icon: php,
+  },
+  {
+    name: 'laravel',
+    icon: laravel,
+  },
+  {
+    name: 'wordpress',
+    icon: wordpress,
   },
 ];
 

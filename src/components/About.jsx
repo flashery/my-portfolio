@@ -33,43 +33,62 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        A Full Stack Developer. Turning your idea into reality.
-        I am an individual that loves to learn new ideas everyday.
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I am a full time Full Stack Developer with love in Software Development in both back end and frontend
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Expert in making high quality performance websites for start up and business growing companies.
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Expert in working on front end: HTML5, Bootstrap, Material UI, JavaScript (VueJS, React).
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Expert in working on the back end programming: NodeJS(Express), Java Core, PHP (Laravel, CodeIgniter and Yii).
-      </motion.p>
-      <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Proficient in Serverless Technology: AWS CDK, AWS Lambda and Firebase
-      </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="my-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
+      <motion.h3
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-eerieBlack font-bold text-[24px] max-w-3xl leading-[30px]">
+        A Passionate Full Stack Developer — Bringing Ideas to Life
+      </motion.h3>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        I’m a dedicated Full Stack Developer with a passion for turning ideas into functional, high-performance web applications. I thrive on learning new technologies and refining my skills every day.
+        With extensive experience in both frontend and backend development, I specialize in building scalable and maintainable solutions for startups and growing businesses.
+      </motion.p>
+      <motion.h3
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-eerieBlack font-bold text-[24px] max-w-3xl leading-[30px]">
+        What I Do Best:
+      </motion.h3>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <strong>- Frontend Development</strong>
+        <motion.br />
+        <p className="px-3">I thrive on learning new technologies and refining my skills every day.
+          With extensive experience in both frontend and backend development, I specialize in building scalable and maintainable solutions for startups and growing businesses.
+        </p>
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <strong>- Backend Development</strong>
+        <motion.br />
+        <p className="px-3">Proficient in Node.js (Express, NestJS), Java Core, and PHP frameworks such as Laravel and WordPress — building robust and secure APIs and systems.
+        </p>
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <strong>- Cloud & Serverless Architecture</strong>
+        <motion.br />
+        <p className="px-3">Skilled in deploying cost-efficient, scalable solutions using AWS CDK, AWS Lambda, and Firebase.
+        </p>
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        <strong>- AI Integrations</strong>
+        <motion.br />
+        <p className="px-3">Experienced in integrating AI features using OpenAI, LangChain, Ollama, and cloud-based LLM APIs, building smart features like chatbots, content generation, recommendation engines, and more.
+        </p>
+      </motion.p>
+
     </div>
   );
 };

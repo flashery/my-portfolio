@@ -22,7 +22,7 @@ export default {
         flashWhite: '#f4f4f6',
         platinum: '#e6e6e9',
         platinumLight: '#f4f4f5',
-        timberWolf: '#d4d4d8',
+        timberWolf: '#115dd5',
         taupe: '#9999a1',
         silver: '#d6d6d6',
         dim: '#66666e',
@@ -60,7 +60,7 @@ export default {
         hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/nairobi.png')",
+        tech: "linear-gradient(277deg, rgb(2 27 60 / 80%) 100%, rgb(84 84 239 / 80%) 100%), url(/src/assets/backgrounds/nairobi.png)",
       },
       fontFamily: {
         arenq: ['Arenq'],
