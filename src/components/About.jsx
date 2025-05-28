@@ -60,8 +60,7 @@ const About = () => {
         className="mt-4 text-white text-[18px] max-w-3xl leading-[30px]">
         <strong>- Frontend Development</strong>
         <motion.br />
-        <p className="px-3">I thrive on learning new technologies and refining my skills every day.
-          With extensive experience in both frontend and backend development, I specialize in building scalable and maintainable solutions for startups and growing businesses.
+        <p className="px-3">Expert in HTML5, Tailwind CSS, ShadCN UI, and JavaScript frameworks like Vue.js and React — crafting responsive, modern, and accessible user interfaces.
         </p>
       </motion.div>
       <motion.div

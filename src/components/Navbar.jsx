@@ -9,43 +9,52 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-30 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
-      <div className="w-full  px-4 flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive('');
-            window.scrollTo(0, 0);
-          }}>
-          <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="w-[90px] h-[90px] object-contain"
-          />
-        </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
-          {navLinks.map((nav) => (
-             <li
-             key={nav.id}
-             className={`${
-               active === nav.title ? 'text-secondary' : 'text-primary'
-             } hover:text-secondary text-[21px] font-black font-orbitron 
+    <nav className={`${styles.paddingX} w-full fixed top-0 z-30 bg-flashWhite sm:opacity-[0.97]`}>
+      <div className="w-full max-w-7xl mx-auto flex flex-col">
+
+        {/* Contact Info Bar */}
+        <div className="text-[12px] sm:text-[14px] text-right text-primary px-4 py-1">
+          <p className="leading-tight">
+            Email: <span className="font-semibold">sevy.gonz@gmail.com</span><br />
+            Address: <span className="font-semibold">
+              BLK 13 LT 8, RUIZ VILLAGE, AGDAO, CITY OF DAVAO, DAVAO DEL SUR 8000
+            </span>
+          </p>
+        </div>
+        <div className="w-full px-4 flex justify-between items-center py-2">
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive('');
+              window.scrollTo(0, 0);
+            }}>
+            <img
+              src={logo} // your logo comes here
+              alt="logo"
+              className="w-[90px] h-[90px] object-contain"
+            />
+          </Link>
+
+          <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${active === nav.title ? 'text-secondary' : 'text-primary'
+                  } hover:text-secondary text-[21px] font-black font-orbitron 
                uppercase tracking-[3px]  nav-links`}
-             onClick={() => setActive(nav.title)}>
-             <a className="inline-block cursor-pointer" href={`#${nav.id}`}>{nav.title}</a>
-           </li>
-          ))}
-        </ul>
- {/* mobile */}
- <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+                onClick={() => setActive(nav.title)}>
+                <a className="inline-block cursor-pointer" href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* mobile */}
+        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
-                  toggle ? 'menu-open' : 'menu-close'
+                top-0 left-0 w-screen h-[100vh] z-10 menu ${toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">
                 <img
