@@ -15,6 +15,7 @@ const Navbar = () => {
         {/* Contact Info Bar */}
         <div className="text-[12px] sm:text-[14px] text-right text-primary px-4 py-1">
           <p className="leading-tight">
+            Phone: <span className="font-semibold">+639503258726</span><br />
             Email: <span className="font-semibold">sevy.gonz@gmail.com</span><br />
             Address: <span className="font-semibold">
               BLK 13 LT 8, RUIZ VILLAGE, AGDAO, CITY OF DAVAO, DAVAO DEL SUR 8000
