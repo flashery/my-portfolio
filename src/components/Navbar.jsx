@@ -35,6 +35,7 @@ const Navbar = () => {
               alt="logo"
               className="w-[90px] h-[90px] object-contain"
             />
+            <h1 className="text-[24px] font-bold text-primary">Flashery</h1>
           </Link>
 
           <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
